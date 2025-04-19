@@ -3,183 +3,234 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio of Erzam Bayu, a Network Engineer from Bekasi." />
+    <meta name="author" content="Erzam Bayu" />
 
-    <title>Erzam Bayu</title>
-    <!-- load CSS -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600"
-    />
-    <!-- Google web font "Open Sans" -->
+    <title>Erzam Bayu - Network Engineer & Technology Enthusiast</title>
+    <!-- Load CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <!-- https://getbootstrap.com/ -->
     <link rel="stylesheet" href="slick/slick.css" />
     <link rel="stylesheet" href="slick/slick-theme.css" />
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <link rel="stylesheet" href="css/tooplate-style.css" />
-    <!-- Templatemo style -->
+    <link rel="stylesheet" href="css/custom-style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
   </head>
 
   <body>
     <!-- Loader -->
-    <div id="loader-wrapper">
+    <div id="loader-wrapper" aria-hidden="true">
       <div id="loader"></div>
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
     </div>
 
     <div class="tm-main-container">
-      <div class="tm-top-container">
-        <!-- Menu -->
-        <nav id="tmNav" class="tm-nav">
-          <a class="tm-navbar-menu" href="#">Menu</a>
-          <ul class="tm-nav-links">
-            <li class="tm-nav-item active">
-              <a href="#" data-linkid="0" data-align="right" class="tm-nav-link">Intro</a>
-            </li>
-            <li class="tm-nav-item">
-              <a href="#" data-linkid="1" data-align="right" class="tm-nav-link">About</a>
-            </li>
-            <li class="tm-nav-item">
-              <a
-                href="#"
-                data-linkid="2"
-                data-align="middle"
-                class="tm-nav-link">Work</a>
-            </li>
-            <li class="tm-nav-item">
-              <a href="#" data-linkid="3" data-align="left" class="tm-nav-link">Contact</a>
-            </li>
-            <li class="tm-nav-item">
-              <a
-                rel="nofollow" href="https://fb.com/tooplate"
-                class="tm-nav-link external">External</a>
-            </li>
-          </ul>
-        </nav>
+      <div class="container">
+        <div class="tm-top-container">
+          <!-- Site header -->
+          <header class="tm-site-header-box">
+            <h1 class="tm-site-title">Erzam Bayu</h1>
+            <p class="mb-0 tm-site-subtitle">Network Engineer & Technology Enthusiast</p>
+          </header>
 
-        <!-- Site header -->
-        <header class="tm-site-header-box tm-bg-dark">
-          <h1 class="tm-site-title">Erzam Bayu</h1>
-          <p class="mb-0 tm-site-subtitle">Network Engineering</p>
-        </header>
+          <!-- Menu -->
+          <nav id="tmNav" class="tm-nav" aria-label="Main Navigation">
+            <a class="tm-navbar-menu" href="#"><i class="fas fa-bars"></i> Menu</a>
+            <ul class="tm-nav-links">
+              <li class="tm-nav-item active">
+                <a href="#" data-linkid="0" class="tm-nav-link"><i class="fas fa-home"></i> Home</a>
+              </li>
+              <li class="tm-nav-item">
+                <a href="#" id="back_to_top" class="tm-nav-link"><i class="fas fa-arrow-up"></i> Back to Top</a>
+              </li>
+              <li class="tm-nav-item">
+                <a href="#" data-linkid="1" class="tm-nav-link"><i class="fas fa-user"></i> About</a>
+              </li>
+              <li class="tm-nav-item">
+                <a href="#" data-linkid="2" class="tm-nav-link"><i class="fas fa-briefcase"></i> Work</a>
+              </li>
+              <li class="tm-nav-item">
+                <a href="#" data-linkid="4" class="tm-nav-link"><i class="fas fa-code"></i> Skills</a>
+              </li>
+              <li class="tm-nav-item">
+                <a href="#" data-linkid="3" class="tm-nav-link"><i class="fas fa-envelope"></i> Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <!-- tm-top-container -->
 
-      <div class="container-fluid">
+      <!-- Content Sections -->
+      <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <!-- Site content -->
             <div class="tm-content">
               <!-- Section 0 Introduction -->
-              <section class="tm-section tm-section-0">
-                <h2 class="tm-section-title mb-3 font-weight-bold">
-                  Introduction
-                </h2>
-                <div class="tm-textbox tm-bg-dark">
+              <section class="tm-section tm-section-0 active animate-fade-in">
+                <h2 class="tm-section-title">Welcome to My Portfolio</h2>
+                <div class="tm-textbox">
                   <p>
-                    I am a network engineer from the city of Bekasi. I have experience working at PT. IASA MULTI INTEGRATOR.             
+                    Hello! I'm Erzam Bayu, a passionate Network Engineer from Bekasi with experience at PT. IASA MULTI INTEGRATOR. I specialize in designing, implementing, and maintaining network infrastructure solutions.                  
                   </p>
                   <p class="mb-0">
-                    If you are interested in me, please click the button below.
+                    I'm dedicated to creating reliable and secure network environments that help businesses thrive in today's digital landscape. My expertise includes network design, security solutions, and troubleshooting complex network issues.
                   </p>
+                  
+                  <div class="skills-container">
+                    <div class="skill-card">
+                      <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                      <h3 class="skill-title">Network Design</h3>
+                      <p>Creating scalable and reliable network infrastructures</p>
+                    </div>
+                    <div class="skill-card">
+                      <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+                      <h3 class="skill-title">Security Solutions</h3>
+                      <p>Implementing robust security measures</p>
+                    </div>
+                    <div class="skill-card">
+                      <div class="skill-icon"><i class="fas fa-server"></i></div>
+                      <h3 class="skill-title">IT Support</h3>
+                      <p>Hardware and software troubleshooting</p>
+                    </div>
+                  </div>
                 </div>
-                <a href="#" id="tm_about_link" data-linkid="1" class="tm-link">Read More</a>
+                <a href="#" id="tm_about_link" data-linkid="1" class="tm-link">Learn More About Me</a>
               </section>
 
               <!-- Section 1 About Me -->
               <section class="tm-section tm-section-1">
-                <div class="tm-textbox tm-textbox-2 tm-bg-dark">
-                  <h2 class="tm-text-blue mb-4">About Me</h2>
+                <h2 class="tm-section-title">About Me</h2>
+                <div class="tm-textbox">
                   <p class="mb-4">
-                    I graduated from SMK Perguruan Rakyat 2 Jakarta in 2020. I have experience working at PT. IASA MULTI INTEGRATOR.
-                    with a major in Computer and Network Engineering and a minor in Network Engineering.
+                    I graduated from SMK Perguruan Rakyat 2 Jakarta in 2020 with a major in Computer and Network Engineering. My professional journey began at PT. IASA MULTI INTEGRATOR, where I've been able to apply and expand my knowledge in network engineering.
                   </p>
                   <p class="mb-4">
-                    I also provide computer hardware and software services and I have software expertise in several apple products.
+                    Beyond network engineering, I also provide computer hardware and software services. I've developed specialized expertise in Apple products, offering solutions for various technical issues and optimizations.
                   </p>
-                  <a
-                    href="#"
-                    id="tm_work_link"
-                    data-linkid="2"
-                    class="tm-link m-0"
-                    >Next</a
-                  >
+                  <p class="mb-4">
+                    My goal is to continue growing in the field of network engineering while exploring new technologies and methodologies that can enhance network performance and security.
+                  </p>
+                  <div class="social-icons">
+                    <a href="https://github.com/erzambayu" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/erzam-bayu" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/erzam.bayu" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/erzam.bayu" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                  </div>
                 </div>
+                <a href="#" id="tm_work_link" data-linkid="2" class="tm-link">View My Work</a>
               </section>
 
               <!-- Section 2 Work (Gallery) -->
               <section class="tm-section tm-section-2 mx-auto">
-                <div class="grid tm-gallery">
+                <h2 class="tm-section-title">My Work</h2>
+                <div class="tm-textbox mb-4">
+                  <p>Here are some highlights of my professional work and projects. Each image represents different aspects of my expertise in network engineering and technology services.</p>
+                </div>
+                <div class="tm-gallery">
                   <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/01.jpg" alt="Image 1" class="" />
+                    <img src="img/01.jpg" alt="Setting Network Cisco" />
                     <figcaption>
-                      <h2>
-                        Setting 
-                        <span>Network Cisco</span>
-                      </h2>
-                      <p>Mainteinance Switch Cisco.</p>
-                      <a href="img/01.jpg">View more</a>
+                      <h2>Network <span>Configuration</span></h2>
+                      <p>Setting up and maintaining Cisco network equipment</p>
+                      <a href="img/01.jpg" class="gallery-link">View more</a>
                     </figcaption>
                   </figure>
                   <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/02.jpg" alt="Pretty Girl" class="" />
+                    <img src="img/02.jpg" alt="Setting Network Cisco" />
                     <figcaption>
-                      <h2>
-                        Setting
-                        <span>Network Cisco</span>
-                      </h2>
-                      <p>Mainteinance Switch Cisco.</p>
-                      <a href="img/02.jpg">View more</a>
+                      <h2>Network <span>Optimization</span></h2>
+                      <p>Optimizing network performance for business needs</p>
+                      <a href="img/02.jpg" class="gallery-link">View more</a>
                     </figcaption>
                   </figure>
                   <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/03.jpg" alt="Red Flowers" class="" />
+                    <img src="img/03.jpg" alt="Maintenance Switch Cisco" />
                     <figcaption>
-                      <h2>
-                        Mainteinance
-                        <span>Switch Cisco</span>
-                      </h2>
-                      <p>Fixing problem with cisco switch.</p>
-                      <a href="img/03.jpg">View more</a>
+                      <h2>Hardware <span>Troubleshooting</span></h2>
+                      <p>Resolving complex network hardware issues</p>
+                      <a href="img/03.jpg" class="gallery-link">View more</a>
                     </figcaption>
                   </figure>
                   <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/04.jpg" alt="Stairs" class="" />
+                    <img src="img/04.jpg" alt="Service Apple Device" />
                     <figcaption>
-                      <h2>
-                        Service Apple
-                        <span>Device</span>
-                      </h2>
-                      <p>Bypass Iphone To Make The Device Can Use Again.</p>
-                      <a href="img/04.jpg">View more</a>
+                      <h2>Apple <span>Device Repair</span></h2>
+                      <p>Specialized solutions for Apple hardware problems</p>
+                      <a href="img/04.jpg" class="gallery-link">View more</a>
                     </figcaption>
                   </figure>
                   <figure class="effect-goliath tm-gallery-item">
-                    <img src="img/05.jpg" alt="Image 5" class="" />
+                    <img src="img/05.jpg" alt="Service Apple Device" />
                     <figcaption>
-                      <h2>
-                        Service Apple
-                        <span>Device</span>
-                      </h2>
-                      <p>Bypass Iphone To Make The Device Can Use Again</p>
-                      <a href="img/05.jpg">View more</a>
+                      <h2>Software <span>Solutions</span></h2>
+                      <p>Implementing software fixes for device optimization</p>
+                      <a href="img/05.jpg" class="gallery-link">View more</a>
                     </figcaption>
                   </figure>
                 </div>
+                <a href="#" id="tm_skills_link" data-linkid="4" class="tm-link mt-4">View My Skills</a>
+              </section>
+              
+              <!-- Section 4 Skills -->
+              <section class="tm-section tm-section-4">
+                <h2 class="tm-section-title">My Skills & Expertise</h2>
+                <div class="tm-textbox">
+                  <p>As a Network Engineer and technology enthusiast, I've developed a diverse set of skills that allow me to tackle various technical challenges. Here are my core competencies:</p>
+                  
+                  <div class="skills-container">
+                    <div class="skill-card">
+                      <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                      <h3 class="skill-title">Network Administration</h3>
+                      <p>Cisco equipment, routing, switching, VLANs, VPNs</p>
+                    </div>
+                    <div class="skill-card">
+                      <div class="skill-icon"><i class="fas fa-shield-alt"></i></div>
+                      <h3 class="skill-title">Network Security</h3>
+                      <p>Firewalls, intrusion detection, security policies</p>
+                    </div>
+                    <div class="skill-card">
+                      <div class="skill-icon"><i class="fas fa-server"></i></div>
+                      <h3 class="skill-title">Server Management</h3>
+                      <p>Windows Server, Linux administration</p>
+                    </div>
+                    <div class="skill-card">
+                      <div class="skill-icon"><i class="fas fa-wifi"></i></div>
+                      <h3 class="skill-title">Wireless Networking</h3>
+                      <p>Wi-Fi deployment, optimization, troubleshooting</p>
+                    </div>
+                    <div class="skill-card">
+                      <div class="skill-icon"><i class="fab fa-apple"></i></div>
+                      <h3 class="skill-title">Apple Ecosystem</h3>
+                      <p>Hardware repair, iOS/macOS troubleshooting</p>
+                    </div>
+                    <div class="skill-card">
+                      <div class="skill-icon"><i class="fas fa-code"></i></div>
+                      <h3 class="skill-title">Scripting</h3>
+                      <p>Basic automation with Python and Bash</p>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" id="tm_contact_link" data-linkid="3" class="tm-link">Contact Me</a>
               </section>
 
               <!-- Section 3 Contact -->
-              <section class="tm-section tm-section-3 tm-section-left">
-                <form action="" class="tm-contact-form" method="post">
+              <section class="tm-section tm-section-3">
+                <h2 class="tm-section-title">Get In Touch</h2>
+                <div class="tm-textbox mb-4">
+                  <p>Have a project in mind or need assistance with your network infrastructure? Feel free to reach out to me using the form below or connect with me directly through my social media profiles.</p>
+                </div>
+                <form id="contactForm" class="tm-contact-form" onsubmit="return handleFormSubmit(event)">
                   <div class="form-group mb-4">
                     <input
                       type="text"
                       id="contact_name"
                       name="contact_name"
                       class="form-control"
-                      placeholder="Name"
+                      placeholder="Your Name"
                       required
+                      aria-label="Name"
                     />
                   </div>
                   <div class="form-group mb-4">
@@ -188,8 +239,20 @@
                       id="contact_email"
                       name="contact_email"
                       class="form-control"
-                      placeholder="Email"
+                      placeholder="Your Email"
                       required
+                      aria-label="Email"
+                    />
+                  </div>
+                  <div class="form-group mb-4">
+                    <input
+                      type="text"
+                      id="contact_subject"
+                      name="contact_subject"
+                      class="form-control"
+                      placeholder="Subject"
+                      required
+                      aria-label="Subject"
                     />
                   </div>
                   <div class="form-group mb-4">
@@ -198,54 +261,62 @@
                       id="contact_message"
                       name="contact_message"
                       class="form-control"
-                      placeholder="Message"
+                      placeholder="Your Message"
                       required
+                      aria-label="Message"
                     ></textarea>
                   </div>
                   <div class="form-group mb-0">
-                    <button type="submit" class="btn tm-send-btn tm-fl-right">
-                      Send
+                    <button type="submit" class="btn tm-send-btn">
+                      <i class="fas fa-paper-plane"></i> Send Message
                     </button>
                   </div>
                 </form>
+                
+                <div class="tm-textbox mt-5">
+                  <h3>Contact Information</h3>
+                  <p><i class="fas fa-envelope"></i> Email: <a href="mailto:erzambayu@gmail.com">erzambayu@gmail.com</a></p>
+                  <p><i class="fas fa-map-marker-alt"></i> Location: Bekasi, Indonesia</p>
+                  
+                  <div class="social-icons">
+                    <a href="https://github.com/erzambayu" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/erzam-bayu" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/erzam.bayu" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/erzam.bayu" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.youtube.com/erzambayu" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                  </div>
+                </div>
               </section>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="tm-bottom-container">
-        <!-- Barcode -->
-        <div class="tm-barcode-box">
-          <img src="img/bar-code.jpg" alt="Bar code" />
+      <!-- Footer -->
+      <footer>
+        <div class="container">
+          <p>&copy; 2025 Erzam Bayu | Network Engineer & Technology Enthusiast</p>
+          <p>Made with <i class="fas fa-heart" style="color: #ff6b6b;"></i> by <a href="https://fb.com/erzam.bayu">Erzam Bayu</a></p>
         </div>
-
-        <!-- Footer -->
-        <footer>
-          || Make this with love || 
-                  
-        	Design: <a rel="follow" href="https://fb.com/erzam.bayu">By Me</a> || 
-        
-        </footer>
-      </div>
+      </footer>
     </div>
 
+    <!-- Scripts -->
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="js/background.cycle.js"></script>
     <script src="slick/slick.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script>
       let slickInitDone = false;
-      let previousImageId = 0,
-        currentImageId = 0;
-      let pageAlign = "right";
+      let previousImageId = 0;
+      let currentImageId = 0;
       let bgCycle;
       let links;
       let eachNavLink;
 
       window.onload = function() {
-        $("body").addClass("loaded");
-      };
+        $('body').addClass('loaded');
+      }
 
       function navLinkClick(e) {
         if ($(e.target).hasClass("external")) {
@@ -254,31 +325,41 @@
 
         e.preventDefault();
 
-        if ($(e.target).data("align")) {
-          pageAlign = $(e.target).data("align");
-        }
-
         // Change bg image
         previousImageId = currentImageId;
         currentImageId = $(e.target).data("linkid");
-        bgCycle.cycleToNextImage(previousImageId, currentImageId);
+        
+        // If we have background cycling enabled
+        if (typeof bgCycle !== 'undefined') {
+          bgCycle.cycleToNextImage(previousImageId, currentImageId);
+        }
 
         // Change menu item highlight
         $(`.tm-nav-item:eq(${previousImageId})`).removeClass("active");
         $(`.tm-nav-item:eq(${currentImageId})`).addClass("active");
 
-        // Change page content
-        $(`.tm-section-${previousImageId}`).fadeOut(function(e) {
-          $(`.tm-section-${currentImageId}`).fadeIn();
-          // Gallery
-          if (currentImageId === 2) {
-            setupSlider();
-          }
+        // Change page content with animation
+        $(`.tm-section-${previousImageId}`).fadeOut(function() {
+          $(`.tm-section-${currentImageId}`).fadeIn().addClass('animate-fade-in');
+          adjustFooter();
         });
+
+        // Close mobile menu if open
+        if ($('.tm-nav-links').hasClass('show')) {
+          $('.tm-nav-links').removeClass('show');
+        }
 
         adjustFooter();
       }
 
+      // Add fixed navigation buttons
+      $('body').append(`
+        <div class="fixed-nav-buttons">
+          <a href="#" id="home_button_fixed" class="home-button-fixed"><i class="fas fa-home"></i></a>
+          <a href="#" id="back_to_top_fixed" class="back-to-top-fixed"><i class="fas fa-arrow-up"></i></a>
+        </div>
+      `);
+      
       $(document).ready(function() {
         // Set first page
         $(".tm-section").fadeOut(0);
@@ -290,7 +371,7 @@
           imageUrls: [
             "img/photo-02.jpg",
             "img/photo-03.jpg",
-            "img/photo-04.jpg",
+            "img/photo-04.jpg", 
             "img/photo-05.jpg"
           ],
           fadeSpeed: 2000,
@@ -308,8 +389,98 @@
           links.fadeOut(0);
         }
 
+        // Handle gallery links
+        $('.gallery-link').on('click', function(e) {
+          e.preventDefault();
+          var imgSrc = $(this).attr('href');
+          
+          // Create a lightbox
+          $('body').append('<div class="lightbox"><img src="' + imgSrc + '"><span class="close-lightbox">&times;</span></div>');
+          $('.lightbox').css({
+            'position': 'fixed',
+            'top': 0,
+            'left': 0,
+            'width': '100%',
+            'height': '100%',
+            'background': 'rgba(0,0,0,0.9)',
+            'display': 'flex',
+            'align-items': 'center',
+            'justify-content': 'center',
+            'z-index': 9999
+          });
+          
+          $('.lightbox img').css({
+            'max-width': '90%',
+            'max-height': '90%',
+            'box-shadow': '0 0 20px rgba(0,0,0,0.5)'
+          });
+          
+          $('.close-lightbox').css({
+            'position': 'absolute',
+            'top': '20px',
+            'right': '20px',
+            'font-size': '30px',
+            'color': 'white',
+            'cursor': 'pointer'
+          });
+          
+          // Close lightbox on click
+          $('.lightbox, .close-lightbox').on('click', function() {
+            $('.lightbox').remove();
+          });
+        });
+        
+        // Home button functionality
+        $('#home_button_fixed').on('click', function(e) {
+          e.preventDefault();
+          
+          // Switch to home section
+          previousImageId = currentImageId;
+          currentImageId = 0;
+          
+          // Change menu item highlight
+          $('.tm-nav-item').removeClass('active');
+          $('.tm-nav-item:eq(0)').addClass('active');
+          
+          // Change page content
+          $('.tm-section').fadeOut();
+          $('.tm-section-0').fadeIn().addClass('animate-fade-in');
+          
+          // Scroll to top
+          $('html, body').animate({scrollTop: 0}, 500);
+        });
+        
+        // Back to top functionality
+        $('#back_to_top, #back_to_top_fixed').on('click', function(e) {
+          e.preventDefault();
+          $('html, body').animate({scrollTop: 0}, 500);
+          
+          // Switch to home section
+          previousImageId = currentImageId;
+          currentImageId = 0;
+          
+          // Change menu item highlight
+          $('.tm-nav-item').removeClass('active');
+          $('.tm-nav-item:eq(0)').addClass('active');
+          
+          // Change page content
+          $('.tm-section').fadeOut();
+          $('.tm-section-0').fadeIn().addClass('animate-fade-in');
+        });
+        
+        // Show/hide fixed back to top button based on scroll position
+        $(window).scroll(function() {
+          if ($(this).scrollTop() > 300) {
+            $('#back_to_top_fixed').addClass('show');
+          } else {
+            $('#back_to_top_fixed').removeClass('show');
+          }
+        });
+
         $("#tm_about_link").on("click", navLinkClick);
         $("#tm_work_link").on("click", navLinkClick);
+        $("#tm_skills_link").on("click", navLinkClick);
+        $("#tm_contact_link").on("click", navLinkClick);
 
         // Each menu item click
         eachNavLink.on("click", navLinkClick);
@@ -398,6 +569,50 @@
             enabled: true
           }
         });
+      }
+      
+      // Contact form handling
+      function handleFormSubmit(event) {
+        event.preventDefault();
+        
+        // Get form values
+        const name = document.getElementById('contact_name').value;
+        const email = document.getElementById('contact_email').value;
+        const subject = document.getElementById('contact_subject').value;
+        const message = document.getElementById('contact_message').value;
+        
+        // Create a success message container
+        const formContainer = document.querySelector('.tm-contact-form').parentNode;
+        const successMessage = document.createElement('div');
+        successMessage.className = 'tm-textbox success-message';
+        successMessage.innerHTML = `
+          <div style="text-align: center;">
+            <i class="fas fa-check-circle" style="font-size: 4rem; color: #38bdf8; margin-bottom: 20px;"></i>
+            <h3>Thank You, ${name}!</h3>
+            <p>Your message has been received. In a real website, this would be sent to my email.</p>
+            <p>I'll get back to you as soon as possible at ${email}.</p>
+            <div class="message-details" style="margin-top: 20px; padding: 15px; background: rgba(255,255,255,0.1); border-radius: 5px;">
+              <p><strong>Subject:</strong> ${subject}</p>
+              <p><strong>Message:</strong> ${message}</p>
+            </div>
+            <button id="resetForm" class="btn tm-send-btn" style="margin-top: 20px;">
+              <i class="fas fa-paper-plane"></i> Send Another Message
+            </button>
+          </div>
+        `;
+        
+        // Hide the form and show success message
+        document.getElementById('contactForm').style.display = 'none';
+        formContainer.appendChild(successMessage);
+        
+        // Add event listener to reset button
+        document.getElementById('resetForm').addEventListener('click', function() {
+          document.getElementById('contactForm').reset();
+          document.getElementById('contactForm').style.display = 'block';
+          successMessage.remove();
+        });
+        
+        return false;
       }
     </script>
   </body>
